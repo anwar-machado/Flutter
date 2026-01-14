@@ -2,6 +2,9 @@
 A collection of basic Flutter studies.
 Thank you for being here!
 
+# Roadmap 
+= [Roadmap](roadmap.md)
+
 ## Learning Menu
 - [Concepts](concepts.md)
 - [Widgets Guide](widgets.md)
