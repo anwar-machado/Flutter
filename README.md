@@ -6,6 +6,7 @@ Thank you for being here!
 - [Roadmap](roadmap.md)
 
 ## Learning Menu
+- [Setting up the Enviroment](setup_enviroment.md)
 - [Concepts](concepts.md)
 - [Widgets Guide](widgets.md)
 - [State Management](state_management.md)
