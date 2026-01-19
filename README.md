@@ -1,16 +1,63 @@
-# projects
+# 📝 Flutter Todo List
 
-A new Flutter project.
+A professional task management application built with Flutter, featuring a clean architecture and industry best practices for state management and UI/UX.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📂 Project Structure
 
-A few resources to get you started if this is your first Flutter project:
+The project is organized into layers to ensure maintainability and scalability, as seen in the directory tree:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **`lib/models/`**: Contains the `Todo` data class and logic for task objects.
+* **`lib/pages/`**: Houses the main screens of the application, such as `TodoListPage`.
+* **`lib/repositories/`**: Dedicated to data persistence and management (the bridge between UI and storage).
+* **`lib/widgets/`**: Reusable UI components, including the custom `TodoListItem`.
+* **`lib/main.dart`**: The entry point of the Flutter application.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+* **Flutter SDK** installed (Stable channel).
+* **Android/iOS Emulator** or a physical testing device.
+
+### Installation
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/anwar-machado/Flutter.git](https://github.com/anwar-machado/Flutter.git)
+    ```
+2.  **Navigate to the project folder**
+    ```bash
+    cd projects
+    ```
+3.  **Install dependencies**
+    ```bash
+    flutter pub get
+    ```
+4.  **Launch the application**
+    ```bash
+    flutter run
+    ```
+
+---
+
+## 🛠️ Key Features & Technical Implementation
+
+* **Flutter Slidable**: Integrated for intuitive "swipe-to-delete" actions on tasks.
+* **Basic Clean Architecture**: Separation of concerns between UI, Models, and Repositories to keep code organized.
+* **Form Validation**: Implementation of `GlobalKey<FormState>` to prevent empty task entries and improve UX.
+* **Custom Widgets**: Modularized UI components for better code readability and reusability.
+
+---
+
+## 👤 Author
+
+* **Anwar Machado** - [GitHub Profile](https://github.com/anwar-machado)
+
+---
+
+## 📈 Roadmap (Upcoming Improvements)
+* [ ] Implement persistent storage using `shared_preferences`.
+* [ ] Add Light and Dark mode support.
+* [ ] Include a "Undo" feature after deleting a task.
